@@ -10,5 +10,16 @@ public class Calculator {
 	
 	void minus(int a, int b){
 		int c = a - b;
+		System.out.print(c);
+	}
+	
+	void mult(int a, int b){
+		int c = a*b;
+		System.out.print(c);
+	}
+	
+	void divide(int a, int b){
+		int c = a/b;
+		System.out.print(c);
 	}
 }
